@@ -1,0 +1,38 @@
+{
+  "name": "UchideshiEmail",
+  "version": "0.1.0",
+  "description": "Email plugin for Uchideshi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kierahowe/udemail.git"
+  },
+  "keywords": [
+    "Uchideshi",
+    "email",
+    "client-side",
+    "plugin"
+  ],
+  "author": {
+    "name": "Kiera Howe",
+    "email": "Uchideshi@wileysol.com"
+  },
+  "license": " Donno yet",
+  "homepage": "http://wileysol.com",
+  "maintainers": [
+    {
+      "name": "Kiera Howe",
+      "email": "Uchideshi@wileysol.com"
+    }
+  ],
+  "dependencies" :
+    { 
+      "imap" : "latest"
+    },
+  "udreqired": [ "imap", "emailjs", "mailparser" ],
+  "udrequiredversion": "0.1.0",
+  "udmodule": "plugin"
+}
